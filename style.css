@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("Time-Abstract.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background: linear-gradient(225deg, #c6b3b3, #ebd5d5);
+  box-shadow: -20px 20px 60px #bba9a9, 20px -20px 60px #fde5e5;
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+  height: 300px;
+}
+.container h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #585858;
+}
+.container p {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 2rem 0;
+  color: #585858;
+}
+.container button {
+  margin-right: 1rem;
+}
+.container button:last-child {
+  margin-right: 0;
+}
+.container .buttons .css-button-neumorphic {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: #efefef;
+  box-shadow: 2px 2px 4px #c8d0e7, -1px -1px 3px #fff;
+  color: #585858;
+}
+.container .buttons .css-button-neumorphic:active {
+  box-shadow: inset 1px 1px 3px #c8d0e7, inset -1px -1px 3px #fff;
+}
+
+/*# sourceMappingURL=style.css.map */
